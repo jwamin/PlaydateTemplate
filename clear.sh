@@ -1,7 +1,7 @@
 #!/usr/bin/zsh
 
 rm -rf playdate
-rm -rf
+rm -rf cmake-build-*
 rm -rf CMakeFiles
 rm -rf .nova
 rm -rf *.pdx

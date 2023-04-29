@@ -4,9 +4,12 @@ set(CMAKE_C_STANDARD 11)
 set(CMAKE_CONFIGURATION_TYPES "Debug;Release")
 set(CMAKE_XCODE_GENERATE_SCHEME TRUE)
 
+set(GAME_NAME PlaydateTemplate)
+
 # Game Name Customization
-set(PLAYDATE_GAME_NAME Exposure)
-set(PLAYDATE_GAME_DEVICE Exposure_DEVICE)
+set(PLAYDATE_GAME_NAME PlaydateTemplate) #Set Project Name Here
+
+set(PLAYDATE_GAME_DEVICE ${GAME_NAME}_DEVICE)
 
 project(${PLAYDATE_GAME_NAME} C ASM)
 
