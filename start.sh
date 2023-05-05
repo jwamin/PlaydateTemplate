@@ -6,3 +6,6 @@ if [ ! -d "playdate" ]; then
   cp -r PlaydateSDK-*/ ./playdate && rm -R PlaydateSDK-*/
   rm -rf *.tar.gz
 fi
+
+cmake ./CMakeLists.txt -B cmake-build-debug
+cmake --build ./cmake-build-debug --target PlaydateTemplate -- -j 6

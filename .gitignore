@@ -4,3 +4,4 @@ playdate/
 *.pdx
 *.so
 *.bin
+.cmake
